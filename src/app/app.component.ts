@@ -6,6 +6,9 @@ import { Component, HostBinding } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  title(title: any) {
+    throw new Error('Method not implemented.');
+  }
   private isDark = false;
 
   @HostBinding('class')
